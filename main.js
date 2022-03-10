@@ -14,23 +14,16 @@ let prezzoOver = prezzoBase - (prezzoBase/100 * 40);
 
 if ( etaUtente < 18 ) {
     //istruzioni se condizione è vera
-    console.log(prezzoUnder);
+    console.log(prezzoUnder.toFixed(2));
   } else if ( etaUtente > 65) {
     //istruzioni se condizione 2 è vera
-    console.log(prezzoOver);
+    console.log(prezzoOver.toFixed(2));
   } else {
     //istruzioni nessuna condizione precedente è vera
-    console.log(prezzoBase);
+    console.log(prezzoBase.toFixed(2));
   }
 
 
-// let prezzoFinale = prezzoUnder + prezzoOver;
-
-// console.log(prezzoFinale);
-
-// const coloreUtente = prompt("Qual è il tuo colore preferito ?");
-
-// const numeroUtente = prompt("Qual è il tuo numero fortunato ?");
 
 // let password = ` La tua password indecifrabile è: ${nomeUtente}${cognomeUtente}${coloreUtente}${numeroUtente}`;
 
